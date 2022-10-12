@@ -82,7 +82,67 @@ print( 1 + 1 % 2 / 3)
 print((4 < 6) or True and False or False and (2 > 3))
 
 
+#9
+print(True and False and True or True)   #트루
+print(True or True and True and False)   #트루
+print((True and False)or(True and not False)or(False and not False))  #트루
+print((2 < 3)or(5 > 2)and not(4 == 4)or(9 != 4))  #트루
+print(6 == 9 or 5 < 6 and 8 < 4 or 4 > 3)  #트루
 
+#10
+print( 27 / 13 + 4)
+print( 27 / 13 + 4.0)
+print( 42.7 % 3 + 18)
+
+# 논리식과 산술식(값)이 결합된 수식에서는
+# 논리식의 결과가 True면 값이 출력
+# 논리식의 결과가 False면 False가 출력
+print((3 < 4) and 5 / 8)
+
+print(23 / 5 + 23 / 5.0)
+# print(2.0 + 'a')  # 문자와 정수/실수간 산술연산 불가
+#print(2 + 'a')
+
+print('a' + 'b')
+#print('a' / 'b')  #문자간 산술연산 불가
+print('a' and not 'b')
+print('a' and 'b')
+#print((float)'a' / 'b') # 문자는 실수로의 형변환 불가
+
+
+#11
+# K나이 - 세는나이(출생시 1살, 해가 바뀌면 + 1)
+#        만나이(출생시 0살, 생일이 지나면 + 1)
+#        연나이(현재연도 - 출생연도)
+
+name = '홍길동'
+weight = 55.5
+age = 35
+
+print(name, weight, age)
+
+
+
+#12
+# K나이 - 세는나이(출생시 1살, 해가 바뀌면 + 1)
+#        만나이(출생시 0살, 생일이 지나면 + 1)
+#        연나이(현재연도 - 출생연도)
+birthYear = 1990
+currentYear = 2022
+isPassBirth = True
+
+
+age = currentYear - birthYear
+print('연나이', age)
+print('세는나이', 1 + age)
+# 파이썬 if 단축식 : 참일때 값 if 조건식 else 거짓일때 값
+print('만나이', (age + 1) if isPassBirth else age)
+
+#13
+for x in range (2, 10):
+    print("---------")
+    for y in range (1, 10):
+        print(x, "X", y, "=", x*y)
 
 
 
