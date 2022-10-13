@@ -4,8 +4,14 @@
 
 
 
-#22
+#22 - if문의 함정
+number = 30
 
+if ( number % 2 == 0 ): print('입력한 값은 짝수입니다')
+print('입력한 값은 홀수입니다') # 이부분은 if문에 상관없이 무조건 출력
+
+if ( number % 2 == 0 ): print('입력한 값은 짝수입니다')
+else: print('입력한 값은 홀수입니다')
 
 
 
@@ -38,9 +44,17 @@ else:
 
 
 
-#25 - 복권 발행 프로그램
+#25 - 복권 발행 프로그램 v1
+#난수 생성시 random 모듈의 randrange(st, ed-1)
+import random as rnd
+yourkey = int(input('복권 번호는?'))
+lottokey = rnd.randrange(111, 1000)
+print(lottokey)
 
-
+if yourkey == lottokey:
+    print('복권 당첨!! - 상금 백만원!!')
+else:
+    print('꽝 다음 기회에!!')
 
 
 
