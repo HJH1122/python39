@@ -3,8 +3,6 @@
 # sungjukv5lib.py 에 작성하고 모듈명은 sjv5로 줄여서 사용함
 import sungjukv5lib as sjv5
 
-# 성적 데이터 저장할 변수 선언
-sjs = []
 
 
 # 프로그램 주 실행부
