@@ -1,6 +1,8 @@
 # 마리아db로 데이터 다루기 1 - select
 # pymysql 모듈을 먼저 설치 : pip install pymysql
+
 import  pymysql
+
 
 url = 'bigdata.cbyxzrgtjtkk.ap-northeast-2.rds.amazonaws.com'
 userid = 'admin'

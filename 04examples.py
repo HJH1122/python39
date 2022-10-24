@@ -47,7 +47,7 @@ s0, v0, t, g = 4, 5, 6, 9.8
 print(3 * x, 3 * x + y, (x + y) / 7)
 print(s0 + v0*t + (1/2) * g * t**2)
 
-
+l
 
 #5
 #가. double number = ( 1 / 3 ) * 3;          나. int quotient = 7 / 3;

@@ -47,7 +47,7 @@ for i in range(len(menus)):      # len(대상) : 요소 갯수 출력
 # 리스트의 모든 요소를 반복문으로 출력 2
 # for 변수 in 객체
 for menu in menus:       # 리스트의 요소를 하나씩 훑어가며 출력
-    print(i, end=' ')
+    print(menu, end=' ')
 
 # 동적으로 리스트 생성하기
 menus = []       # 빈 리스트 선언

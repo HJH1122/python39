@@ -8,6 +8,7 @@ result = ''
 
 
 
+
 if card[:2] == '35':
     nums = card[2:]    # 나머지 카드 번호 추출
     if nums == '6317': result = 'NH농협 JCB카드'
