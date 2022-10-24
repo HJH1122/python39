@@ -4,10 +4,10 @@
 import  pymysql
 
 
-url = 'bigdata.cbyxzrgtjtkk.ap-northeast-2.rds.amazonaws.com'
-userid = 'admin'
-passwd = 'Bigdata_2022'
-dbname = 'bigdata'
+url = ''
+userid = ''
+passwd = ''
+dbname = ''
 
 conn = pymysql.connect(host=url, user=userid, passwd=passwd, database=dbname, charset='utf8')
 
